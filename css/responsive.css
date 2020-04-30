@@ -1,0 +1,56 @@
+/* Featured Work content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* If the screen size is 360px or more, set the font-size to 'x' */
+@media screen and (min-width: 360px) {
+    #header_title {
+        font-size: 24px;
+        white-space: pre-line;
+    }
+
+    #header_description {
+        font-size: 12px;  
+    }
+    
+    #header_logo {
+        width: 25%;
+        margin-right: 0;
+        padding-right: 0;
+        padding-bottom: 0em;
+    }
+}
+
+/* If the screen size is 361px or more to 767px, set the font-size to 'x' */
+@media screen and (min-width: 361px) {
+    #header_title {
+        font-size: 48px;
+        white-space: normal;
+    }
+
+    #header_description {
+        font-size: 24px;
+    }
+
+    #header_logo {
+        width: auto;
+    }
+}
+
+/* If the screen size is 768px or more, set the font-size to 'x' */
+@media screen and (min-width: 769px) {
+    #header_title {
+        font-size: 48px;
+        white-space: normal;
+    }
+
+    #header_description {
+        font-size: 24px;
+    }
+
+    #header_logo {
+        width: auto;
+    }
+}

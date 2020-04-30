@@ -1,0 +1,97 @@
+body, html {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Spartan';
+}
+
+h1 {
+    margin: 1;
+}
+
+header, section, div {
+    box-sizing: border-box;
+}
+
+/* Header Stuff */
+.header {
+    min-height: 160px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.26);
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.header_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_logo {
+    width: auto;
+    margin-right: 1em;
+    vertical-align: top;
+    margin-top: 12px;
+    float: left;
+}
+
+.header_text {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    color: #2d3c49;
+    float: right;
+}
+
+#header_title {
+    font-weight: 200;
+    margin: 0;
+    margin-top: 0.75em;
+}
+#header_description {
+    font-weight: 500;
+    margin: 0;
+    padding-right: 0.20em;
+}
+
+/* Main */
+main {
+    width: 100%
+}
+
+.coding_image {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.project_image {
+    width: 95%;
+    padding-left: 15px;
+    padding-right: 60px;
+}
+
+#project_heading {
+    color: #2d3c49;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#project_description {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Featured Work Header */
+.featured_work {
+    font-weight: 500;
+    color: #7d97ad;
+    font-size: 32px;
+    padding-left: 20px;
+}
